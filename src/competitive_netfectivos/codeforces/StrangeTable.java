@@ -7,10 +7,16 @@ public class StrangeTable {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
 		while (T-- > 0) {
-			int n = sc.nextInt();
-			int m = sc.nextInt();
+			long n = sc.nextLong();
+			long m = sc.nextLong();
 			long x = sc.nextLong();
+
+			x--;
+			long row = x / n;
+			long col = x % n;
 			
+			System.out.println(row * m + col + 1);
+
 		}
 		sc.close();
 	}
