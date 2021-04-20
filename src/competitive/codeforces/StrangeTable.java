@@ -1,4 +1,4 @@
-package competitive_netfectivos.codeforces;
+package competitive.codeforces;
 
 import java.util.Scanner;
 
